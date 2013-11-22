@@ -180,7 +180,7 @@
                 commonSuperview = [s1 anyObject];
                 break;
             }
-        } while (v1 && v2);
+        } while (v1 || v2);
 
         NSAssert(commonSuperview != nil, @"no common superview");
     } else {
